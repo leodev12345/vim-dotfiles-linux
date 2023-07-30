@@ -15,7 +15,7 @@ Clone this repository into your vimfiles dir in your user folder(windows) or .vi
 git clone --recursive https://github.com/leodev12345/vim-dotfiles
 ```
 
-Create a `.vimrc` (linux) or `_vimrc` (windows) file in your home/user dir
+Create a `.vimrc` (linux) or `_vimrc` (windows) file in your home dir(linux) or user dir(windows)
 
 Paste this into your `.vimrc`/`_vimrc`:
 ```
