@@ -31,4 +31,4 @@ Also for this config you will need to install wsl on windows, but if you dont ne
 let &shell='wsl.exe'
 ```
 
-You might need to change certain file type icons in `plugged/vim-devicons/plugin/webdevicons.vim` using the [Nerd Fonts cheat sheet](https://www.nerdfonts.com/cheat-sheet) to get them to look exacly like in screenshots
+You might need to change certain file type icons in `plugged/vim-devicons/plugin/webdevicons.vim` using the [Nerd Fonts cheat sheet](https://www.nerdfonts.com/cheat-sheet) to get them to look exacly like in the screenshots
