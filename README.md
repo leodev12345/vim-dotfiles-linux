@@ -8,7 +8,7 @@ This is my vim configuration
 
 ## Setup
 
-NOTE: This config was made for windows so you will probably need to change a couple of options in the `vimrc` file
+NOTE: This config was made to work on my windows pc so you will probably need to change a couple of options in the `vimrc` file to make it work on your pc
 
 Clone this repository into your home dir(linux) or your user folder(windows)
 ```
