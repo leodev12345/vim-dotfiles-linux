@@ -1,0 +1,33 @@
+[submodule "bundle/vim-nerdtree-syntax-highlight"]
+		path = "bundle/vim-nerdtree-syntax-highlight"
+		url = "https://github.com/tiagofumo/vim-nerdtree-syntax-highlight"
+[submodule "bundle/vim-nerdtree-tabs"]
+		path = "bundle/vim-nerdtree-tabs"
+		url = "https://github.com/jistr/vim-nerdtree-tabs"
+[submodule "bundle/Vundle.vim"]
+		path = "bundle/Vundle.vim"
+		url = "https://github.com/VundleVim/Vundle.vim"
+[submodule "plugged/markdown-preview.nvim"]
+		path = "plugged/markdown-preview.nvim"
+		url = "https://github.com/iamcco/markdown-preview.nvim"
+[submodule "plugged/nerdtree"]
+		path = "plugged/nerdtree"
+		url = "https://github.com/preservim/nerdtree"
+[submodule "plugged/onehalf"]
+		path = "plugged/onehalf"
+		url = "https://github.com/sonph/onehalf"
+[submodule "plugged/vim-airline"]
+		path = "plugged/vim-airline"
+		url = "https://github.com/vim-airline/vim-airline"
+[submodule "plugged/vim-airline-themes"]
+		path = "plugged/vim-airline-themes"
+		url = "https://github.com/vim-airline/vim-airline-themes"
+[submodule "plugged/vim-devicons"]
+		path = "plugged/vim-devicons"
+		url = "https://github.com/ryanoasis/vim-devicons"
+[submodule "plugged/vim-fugitive"]
+		path = "plugged/vim-fugitive"
+		url = "https://github.com/tpope/vim-fugitive"
+[submodule "plugged/vim-one"]
+		path = "plugged/vim-one"
+		url = "https://github.com/rakr/vim-one"
