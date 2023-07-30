@@ -6,6 +6,8 @@
 
 ## Setup
 
+NOTE: This config was made for windows so you will probably need to change a couple of options in the `vimrc` file
+
 Clone this repository into your home dir(linux) or your user folder(windows)
 ```
 git clone https://github.com/leodev12345/vim-dotfiles
@@ -21,3 +23,7 @@ Install DejaVuSansMono nerd font
 
 [GitHub link to font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/DejaVuSansMono)
 
+Also for this config you will need to install wsl on windows, but if you dont need wsl than just delete this line in `vimrc`
+```
+let &shell='wsl.exe'
+```
