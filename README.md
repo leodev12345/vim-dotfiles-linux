@@ -22,7 +22,7 @@ Paste this into your `.vimrc`/`_vimrc`:
 runtime vimrc
 ```
 
-Install DejaVuSansMono regular nerd font
+Install DejaVuSansMono nerd font
 
 [GitHub link to font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/DejaVuSansMono/Regular/DejaVuSansMNerdFontMono-Regular.ttf)
 
