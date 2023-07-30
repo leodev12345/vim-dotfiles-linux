@@ -10,7 +10,7 @@ NOTE: This config was made for windows so you will probably need to change a cou
 
 Clone this repository into your home dir(linux) or your user folder(windows)
 ```
-git clone https://github.com/leodev12345/vim-dotfiles
+git clone --recursive https://github.com/leodev12345/vim-dotfiles
 ```
 
 Create a `.vimrc` (linux) or `_vimrc` (windows) file in your home/user dir
@@ -27,3 +27,5 @@ Also for this config you will need to install wsl on windows, but if you dont ne
 ```
 let &shell='wsl.exe'
 ```
+
+You might need to change certain file type icons in `plugged/vim-devicons/plugin/webdevicons.vim` using the [Nerd Fonts cheat sheet](https://www.nerdfonts.com/cheat-sheet) to get them to look exacly like in screenshots
