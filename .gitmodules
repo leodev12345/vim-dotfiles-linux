@@ -24,7 +24,7 @@
 		url = "https://github.com/vim-airline/vim-airline-themes"
 [submodule "plugged/vim-devicons"]
 		path = "plugged/vim-devicons"
-		url = "https://github.com/ryanoasis/vim-devicons"
+		url = "https://github.com/leodev12345/vim-devicons"
 [submodule "plugged/vim-fugitive"]
 		path = "plugged/vim-fugitive"
 		url = "https://github.com/tpope/vim-fugitive"

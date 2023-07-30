@@ -14,7 +14,7 @@ call plug#begin()
 Plug 'https://github.com/preservim/nerdtree'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-Plug 'ryanoasis/vim-devicons'
+Plug 'leodev12345/vim-devicons'
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
 Plug 'rakr/vim-one'
 Plug 'tpope/vim-fugitive'
