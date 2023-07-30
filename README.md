@@ -24,8 +24,7 @@ runtime vimrc
 
 Install DejaVuSansMono regular nerd font
 
-[GitHub link to font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/DejaVuSansMono/Regular)
-
+[GitHub link to font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/DejaVuSansMono/Regular/DejaVuSansMNerdFontMono-Regular.ttf)
 Also for this config you will need to install wsl on windows, but if you dont need wsl than just delete this line in `vimrc`
 ```
 let &shell='wsl.exe'
