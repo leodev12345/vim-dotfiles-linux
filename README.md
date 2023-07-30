@@ -22,9 +22,9 @@ Paste this into your `.vimrc`/`_vimrc`:
 runtime vimrc
 ```
 
-Install DejaVuSansMono nerd font
+Install DejaVuSansMono regular nerd font
 
-[GitHub link to font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/DejaVuSansMono)
+[GitHub link to font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/DejaVuSansMono/regular)
 
 Also for this config you will need to install wsl on windows, but if you dont need wsl than just delete this line in `vimrc`
 ```
