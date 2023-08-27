@@ -18,7 +18,6 @@ Plug 'leodev12345/vim-devicons'
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
 Plug 'rakr/vim-one'
 Plug 'tpope/vim-fugitive'
-Plug 'navarasu/onedark.nvim'
 call plug#end()
 
 " general settings
