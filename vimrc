@@ -18,6 +18,7 @@ Plug 'leodev12345/vim-devicons'
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
 Plug 'rakr/vim-one'
 Plug 'tpope/vim-fugitive'
+Plug 'navarasu/onedark.nvim'
 call plug#end()
 
 " general settings
@@ -30,6 +31,7 @@ set background=dark
 colorscheme one
 let &shell='wsl.exe'
 set number
+set relativenumber
 set guioptions-=T
 set guioptions-=R
 set guioptions-=L
@@ -39,6 +41,7 @@ set guioptions-=h
 set guioptions=d
 set guioptions=m
 set ts=4
+set shiftwidth=4
 set autoindent
 set backspace=indent,eol,start
 set clipboard=unnamed
@@ -108,17 +111,15 @@ let airline#extensions#tabline#show_buffers = 0
 let g:airline#extensions#tabline#show_close_button = 0
 
 "mapping hotkeys
-"copy, cut, paste
-nmap <C-v> "+gP 
-xnoremap <C-c> y
-xnoremap <C-x> x
-"select all
-nmap <C-a> ggVG
-"delete to black hole register
-nnoremap d "_d
-vnoremap d "_d
 "switching tabs
 nmap <Tab> gt
 nmap <C-Tab> gT
+"map d to delete and x to cut
+nnoremap d "_d
+vnoremap d "_d
+nnoremap xx "*dd
+nnoremap x "*d
+"map redo to r
+nnoremap r <C-R>
 "plugin hotkeys
 nmap <C-m> <Plug>MarkdownPreviewToggle
