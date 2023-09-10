@@ -38,7 +38,7 @@ set guioptions-=r
 set guioptions-=b
 set guioptions-=h
 set guioptions=d
-set guioptions=m
+set guioptions-=m
 set ts=4
 set shiftwidth=4
 set autoindent
@@ -83,7 +83,9 @@ endif
 let g:airline_symbols.paste = 'ρ'
 let g:airline_symbols.whitespace = 'Ξ'
 let g:airline_left_sep = ''
+let g:airline_left_alt_sep = ''
 let g:airline_right_sep = ''
+let g:airline_right_alt_sep = ''
 let g:airline_symbols.branch = ''
 let g:airline_symbols.spell = 'Ꞩ'
 let g:airline_symbols.readonly = ''
