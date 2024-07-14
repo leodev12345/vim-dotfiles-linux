@@ -10,7 +10,7 @@ This is my vim configuration
 
 NOTE: This config was made to work on gvim on my windows pc so you will probably need to change a couple of options in the `vimrc` file to make it work on your pc
 
-Clone this repository into your vimfiles dir in your user folder(windows) or .vim dir in your home dir(linux)
+Clone this repository into your vimfiles dir in your user folder
 ```
 git clone --recursive https://github.com/leodev12345/vim-dotfiles-windows
 ```
