@@ -12,7 +12,7 @@ NOTE: This config was made to work on gvim on my windows pc so you will probably
 
 Clone this repository into your vimfiles dir in your user folder
 ```
-git clone --recursive https://github.com/leodev12345/vim-dotfiles-windows
+git clone --recursive https://github.com/leodev12345/vim-dotfiles-windows .
 ```
 
 Create a `.vimrc` (linux) or `_vimrc` (windows) file in your home dir(linux) or user dir(windows)
