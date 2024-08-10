@@ -1,7 +1,7 @@
 " vundle plugins
 filetype off
-set rtp+=~/vimfiles/bundle/Vundle.vim
-call vundle#begin('~/vimfiles/bundle')
+set rtp+=/home/leo/.vim/bundle/Vundle.vim
+call vundle#begin('/home/leo/.vim/bundle')
 Plugin 'VundleVim/Vundle.vim'
 Bundle 'jistr/vim-nerdtree-tabs'
 Bundle 'tiagofumo/vim-nerdtree-syntax-highlight'
@@ -22,13 +22,11 @@ call plug#end()
 
 " general settings
 set encoding=UTF-8
-cd C:\Users\Korisnik\Desktop\Coding
 set autochdir
-set guifont=DejaVuSansM\ Nerd\ Font\ Mono:h11
+set guifont=DejaVuSansM\ Nerd\ Font\ Mono\ 12
 syntax on
 set background=dark
 colorscheme one
-let &shell='wsl.exe'
 set number
 set relativenumber
 set guioptions-=T
