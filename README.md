@@ -8,7 +8,7 @@ This is my vim configuration
 
 ## Setup
 
-Clone this repository into your vimfiles dir in your user folder
+Clone this repository into your .vim dir
 ```
 git clone --recursive https://github.com/leodev12345/vim-dotfiles-linux .
 ```
