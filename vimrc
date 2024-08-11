@@ -45,6 +45,7 @@ set clipboard=unnamed
 set ambiwidth=single
 set noshowmode
 set autoread
+set termwinsize=15x0
 
 " autostart
 autocmd VimEnter * silent NERDTreeTabsToggle
