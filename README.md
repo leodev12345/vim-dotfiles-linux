@@ -8,25 +8,11 @@ This is my vim configuration
 
 ## Setup
 
-NOTE: This config was made to work on gvim on my windows pc so you will probably need to change a couple of options in the `vimrc` file to make it work on your pc
-
 Clone this repository into your vimfiles dir in your user folder
 ```
-git clone --recursive https://github.com/leodev12345/vim-dotfiles-windows .
-```
-
-Create a `_vimrc` file in your user folder
-
-Paste this into your `_vimrc`:
-```
-runtime vimrc
+git clone --recursive https://github.com/leodev12345/vim-dotfiles-linux .
 ```
 
 Install DejaVuSansMono nerd font
 
 [GitHub link to font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/DejaVuSansMono/Regular/DejaVuSansMNerdFontMono-Regular.ttf)
-
-Also for this config you will need to install wsl on windows, but if you dont need wsl than just delete this line in `vimrc`
-```
-let &shell='wsl.exe'
-```
