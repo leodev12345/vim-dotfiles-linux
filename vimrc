@@ -41,11 +41,17 @@ set ts=4
 set shiftwidth=4
 set autoindent
 set backspace=indent,eol,start
-set clipboard=unnamed
+set clipboard=unnamedplus
 set ambiwidth=single
 set noshowmode
 set autoread
-set termwinsize=15x0
+"set termwinsize=12x0
+autocmd TerminalWinOpen *
+  \ if &buftype == 'terminal' |
+  \   resize 12 |
+  \   setlocal termwinsize=0x140 |
+  \   setlocal nowrap |
+  \ endif
 
 " autostart
 autocmd VimEnter * silent NERDTreeTabsToggle
