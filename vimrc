@@ -5,6 +5,7 @@ call vundle#begin('/home/leo/.vim/bundle')
 Plugin 'VundleVim/Vundle.vim'
 Bundle 'jistr/vim-nerdtree-tabs'
 Bundle 'tiagofumo/vim-nerdtree-syntax-highlight'
+Bundle "lepture/vim-jinja"
 call vundle#end()          
 filetype plugin indent on
 
