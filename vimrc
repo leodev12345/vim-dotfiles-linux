@@ -46,6 +46,7 @@ set clipboard=unnamedplus
 set ambiwidth=single
 set noshowmode
 set autoread
+set nowrap
 "set termwinsize=12x0
 autocmd TerminalWinOpen *
   \ if &buftype == 'terminal' |
