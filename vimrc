@@ -125,8 +125,8 @@ nmap <C-Tab> gT
 "map d to delete and x to cut
 nnoremap d "_d
 vnoremap d "_d
-nnoremap xx "*dd
-nnoremap x "*d
+nnoremap xx "+dd
+nnoremap x "+d
 "map redo to r
 nnoremap r <C-R>
 "plugin hotkeys
