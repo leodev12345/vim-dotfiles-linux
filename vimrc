@@ -26,6 +26,7 @@ set encoding=UTF-8
 set autochdir
 set guifont=DejaVuSansM\ Nerd\ Font\ Mono\ 12
 syntax on
+set termguicolors
 set background=dark
 colorscheme one
 set number
