@@ -22,6 +22,10 @@ Plug 'tpope/vim-fugitive'
 call plug#end()
 
 " general settings
+set mouse=a
+set ttimeoutlen=10
+set lazyredraw
+set ttyfast
 set encoding=UTF-8
 set autochdir
 set guifont=DejaVuSansM\ Nerd\ Font\ Mono\ 12
@@ -48,17 +52,20 @@ set ambiwidth=single
 set noshowmode
 set autoread
 set nowrap
-"set termwinsize=12x0
+
+"terminal settings
 autocmd TerminalWinOpen *
   \ if &buftype == 'terminal' |
   \   resize 12 |
   \   setlocal termwinsize=0x140 |
   \   setlocal nowrap |
   \ endif
+autocmd TerminalWinOpen * highlight Terminal ctermbg=black guibg=black
 
-" autostart
-autocmd VimEnter * silent NERDTreeTabsToggle
 "NERDtree config
+let g:nerdtree_tabs_open_on_console_startup = 1
+let g:nerdtree_tabs_open_on_new_tab = 1
+let g:nerdtree_tabs_autoclose = 1
 let g:NERDTreeFileExtensionHighlightFullName = 1
 let g:NERDTreeExactMatchHighlightFullName = 1
 let g:NERDTreePatternMatchHighlightFullName = 1
@@ -84,6 +91,7 @@ let NERDTreeIgnore=['\.git$', '.swp', '^__pycache__$']
 
 " air-line config
 let g:airline_powerline_fonts = 1
+let g:airline_highlighting_cache = 1
 
 if !exists('g:airline_symbols')
     let g:airline_symbols = {}
