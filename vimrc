@@ -120,8 +120,9 @@ let g:airline#extensions#tabline#show_close_button = 0
 
 "mapping hotkeys
 "switching tabs
+nmap <F2> gt
 nmap <Tab> gt
-nmap <C-Tab> gT
+nmap <F1> gT
 "map d to delete and x to cut
 nnoremap d "_d
 vnoremap d "_d
